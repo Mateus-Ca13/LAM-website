@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,700&family=Raleway:wght@300;500;700&display=swap');
+:root {
+    --vermelho: #c21717;
+    --vermelho-claro: #d43e3e;
+    --rosa: #e66767;
+    --cinza: #808080;
+}
+
+body {
+
+    font-family: 'DM Sans', sans-serif;
+}
+
+main {
+    background: #f0efef 
+}
+
+/*Estilos do Cabecalho ==========================================*/
+
+.logo {
+    width: 160px;
+}
+
+.banner-noFocus {
+    background-color: #fff;
+    transition: 0.5s all;
+}
+
+.banner-noFocus .ul-icons {
+  
+    border-radius: 15px;
+    padding: 0;
+}
+
+.banner-noFocus .ul-icons li i {
+    border-radius: 100%;
+    background-color: var(--vermelho);
+    padding: 4px;
+    margin: 0 2px;
+}
+
+.ul-icons li i:hover {
+    background-color: var(--rosa);
+    color: #000;
+}
+
+ .banner-noFocus .topics li {
+    padding: 0;
+    transition: 0.3s all;
+    border-bottom: 2px solid #fff;
+    font-size: 14px;
+    transition: 0.5s all;
+
+}
+
+.banner-noFocus .topics li:hover {
+    border-bottom: 2px solid var(--vermelho);
+    transition: 0.3s all;
+}
+
+/*Estilos do Banner ==========================================*/
+
+.banner-img {
+    width: 100%;
+    height: 540px;
+}
+
+.carousel-caption {
+    top: 30%;
+    height: fit-content;
+    background-color: rgba(256, 256, 256, 0.04);
+    border-radius: 15px;
+    padding: 1.2em;
+
+}
+
+.carousel-caption h2 {
+    color: var(--vermelho-claro)
+}
+
+.carousel-caption p {
+    color: rgba(256, 256, 256, 0.8);
+}
+
+label:hover {
+    color: #fff!important;
+    background-color: var(--vermelho-claro)!important;
+}
+
+/*Estilos dos Cards ================================================*/
+
+.card-section-dsk {
+    background-image: url(./assets/bg-vemelho.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.card-section-mob {
+    background-image: url(./assets/bg-vemelho-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Estilos da Galeria ================================================*/
+
+
+.form-select {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down " viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
+}
+
+/*Estilos dos Sobre nós ================================================*/
+
+.bg-fade {
+    background: linear-gradient(to right,#fff 50%, #c21717, 75deg)
+}
+
+/* Estilos Rodape ==============================================*/ 
+
+footer {
+    background-color: #1f1f1f;
+}
+
+/*Estilos Gerais ================================================*/
+
+.sm-font {
+    font-size: 12px;
+}
+
+.text-danger {
+    color: var(--vermelho)!important;
+}
+
+.alt-font {
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sec-margin {
+    scroll-margin-top: 100px;
+}
+
+.bg-grey {
+    background-color: #3c3c3c;
+    color: #fff;
+}
+
+
+
+
+
+/*Estilos aplicados com JS ====================================*/
+
+.banner-focus {
+    background-color: transparent!important;
+    transition: 0.5s all;
+}
+.banner-focus .topics li, .banner-focus .topics li a {
+    border-bottom: none;
+    visibility: hidden;
+    transition: 0.2s all;
+}
+
+/*Estilos aplicados por tamanho de tela ==========================================*/
+
+@media screen and (max-width: 768px){
+    
+}
