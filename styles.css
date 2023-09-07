@@ -11,7 +11,7 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
-main {
+.main {
     background: #f0efef 
 }
 
@@ -59,11 +59,6 @@ main {
 }
 
 /*Estilos do Banner ==========================================*/
-
-.banner-img {
-    width: 100%;
-    height: 540px;
-}
 
 .carousel-caption {
     top: 30%;
@@ -113,13 +108,19 @@ label:hover {
 /*Estilos dos Sobre nós ================================================*/
 
 .bg-fade {
-    background: linear-gradient(to right,#fff 50%, #c21717, 75deg)
+    background: linear-gradient(to bottom,#d43e3e 95%, #c21717)
+}
+
+/*Estilos dos Contato ================================================*/
+.btn.bg-grey:hover {
+    background-color: #a0a0a0;
+    color: #000;
 }
 
 /* Estilos Rodape ==============================================*/ 
 
 footer {
-    background-color: #1f1f1f;
+    background-color: #db0000;
 }
 
 /*Estilos Gerais ================================================*/
