@@ -111,6 +111,10 @@ label:hover {
     background: linear-gradient(to bottom,#d43e3e 95%, #c21717)
 }
 
+.about-img {
+    height: 100%!important;
+}
+
 /*Estilos dos Contato ================================================*/
 .btn.bg-grey:hover {
     background-color: #a0a0a0;
