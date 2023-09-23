@@ -85,14 +85,14 @@ label:hover {
 /*Estilos dos Cards ================================================*/
 
 .card-section-dsk {
-    background-image: url(./assets/bg-vemelho.png);
+    background-image: url(./assets/features/bg-vemelho.png);
     background-position: center;
     background-repeat: no-repeat;
     
 }
 
 .card-section-mob {
-    background-image: url(./assets/bg-vemelho-mobile.png);
+    background-image: url(./assets/features/bg-vemelho-mobile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,7 +151,26 @@ footer {
     color: #fff;
 }
 
+::-webkit-scrollbar {
+    width: 4px; /* Largura da barra de rolagem vertical */
+  }
+  
+  /* Estilizar o trilho da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background-color: #bdbcba; /* Cor do trilho */
+  }
+  
+  /* Estilizar o polegar da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background-color: #c93e3e; /* Cor do polegar */
+    border-radius: 6px; /* Arredondar os cantos do polegar */
+  }
 
+  
+  
+  
+  
+  
 
 
 
